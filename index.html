@@ -10,29 +10,29 @@
     <main class="container">
         <section class="input">
             <input 
-                type="color" 
-                name="color-input" 
                 id="color-input"
                 class="color__input" 
+                name="color-input" 
+                type="color" 
             />
             <select 
-                name="options" 
                 id="input-options"
                 class="input__options" 
+                name="options"
             >
-                <option value="monochrome" name="monochrome">Monochrome</option>
-                <option value="monochrome-dark" name="monochrome-dark">Monochrome-dark</option>
-                <option value="monochrome-light" name="monochrome-light">Monochrome-light</option>
-                <option value="analogic" name="analogic">Analogic</option>
-                <option value="complement" name="complement">Complement</option>
-                <option value="analogic-complement" name="analogic-complement">Analogic-complement</option>
-                <option value="triad" name="triad">Triad</option>
-                <option value="quad" name="quad">Quad</option>
+                <option name="monochrome" value="monochrome" >Monochrome</option>
+                <option name="monochrome-dark" value="monochrome-dark">Monochrome-dark</option>
+                <option name="monochrome-light" value="monochrome-light" >Monochrome-light</option>
+                <option name="analogic" value="analogic">Analogic</option>
+                <option name="complement" value="complement">Complement</option>
+                <option name="analogic-complement" value="analogic-complement">Analogic-complement</option>
+                <option name="triad" value="triad">Triad</option>
+                <option name="quad" value="quad">Quad</option>
             </select>
             <button 
-                onclick="showColors()"
                 id="input-btn"
                 class="input__button"
+                onclick="showColors()"
             >
                 Get Color Scheme
             </button>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.cokm/css2?family=Karla:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Karla', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* Input */
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input__options {
+    width: 50%;
+}

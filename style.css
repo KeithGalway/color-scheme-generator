@@ -7,6 +7,7 @@
 }
 
 .container {
+    height: 100%;
     font-family: 'Karla', sans-serif;
     background-color: whitesmoke;
 }
@@ -17,8 +18,24 @@
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+    padding: 20px 0 20px;
 }
 
+.color__input {
+}
 .input__options {
-    width: 50%;
+}
+.input__button {
+}
+
+/* Output */
+.output {
+}
+
+.output__color {
+}
+.color {
+}
+.hex {
+
 }

@@ -16,8 +16,8 @@
                 type="color" 
             />
             <select 
-                id="input-options"
-                class="input__options" 
+                id="input-option"
+                class="input__option" 
                 name="options"
             >
                 <option name="monochrome" value="monochrome" >Monochrome</option>
@@ -29,35 +29,10 @@
                 <option name="triad" value="triad">Triad</option>
                 <option name="quad" value="quad">Quad</option>
             </select>
-            <button 
-                id="input-btn"
-                class="input__button"
-                onclick="showColors()"
-            >
-                Get Color Scheme
-            </button>
+            <button id="input-btn"class="input__button">Get Color Scheme</button>
         </section>
-        <section class="output">
-            <div class="output__color">
-                <div class="color" id="color-value#1"></div>
-                <p class="hex" id="hex-value#1"></p>
-            </div>
-            <div class="output__color">
-                <div class="color" id="color-value#2"></div>
-                <p class="hex" id="hex-value#2"></p>
-            </div>
-            <div class="output__color">
-                <div class="color" id="color-value#3"></div>
-                <p class="hex" id="hex-value#3"></p>
-            </div>
-            <div class="output__color">
-                <div class="color" id="color-value#4"></div>
-                <p class="hex" id="hex-value#4"></p>
-            </div>
-            <div class="output__color">
-                <div class="color" id="color-value#5"></div>
-                <p class="hex" id="hex-value#5"></p>
-            </div>
+        <section id="output" class="output">
+            <!-- JS generated HTML -->
         </section>
     </main>
     <script src="index.js"></script>

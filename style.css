@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.cokm/css2?family=Karla:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap');
 
 * {
     margin: 0;
@@ -39,12 +39,37 @@
 
 /* Output */
 .output {
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);flex-direction: column;
 }
 
-.output__color {
-}
 .color {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.8em;
+    text-shadow: 2px 2px #191919f0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, 
+                width 0.3s ease-in-out, 
+                height 0.3s ease-in-out;
 }
-.hex {
 
+.color:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+.hex {
+    color: #2b283a;
+    text-align: center;
+    margin: 0.7em 0 1.3em 0;
+    transition: transform 0.2s ease-in;
+    cursor: pointer;
+}
+
+.hex:hover {
+    transform: scale(1.07);
 }

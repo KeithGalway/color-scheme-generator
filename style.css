@@ -22,10 +22,19 @@
 }
 
 .color__input {
+    width: 60px;
+    height: 40px;
+    padding: 0 2px;
+    border: 1px solid #D1D5DB;
 }
-.input__options {
-}
+
+.input__options,
 .input__button {
+    font-size: 1em;
+    letter-spacing: .6px;
+    padding: 0.3em 0.5em;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 7.5px;
 }
 
 /* Output */
